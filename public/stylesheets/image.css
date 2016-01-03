@@ -1,0 +1,69 @@
+body
+{
+	background-color:#1B1C1B;
+	margin:0px;
+}
+#main
+{
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 16%;
+	float:left;
+	height:auto;
+	flex-grow: 1;
+	align-self: auto
+
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+#galery
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	height: 100%;
+	align-items: center;
+}
+#back
+{
+	float: left;
+	position: absolute;
+	background-color: black;
+	width: 40px;
+	height: 100%;
+	opacity: 0;
+}
+#back:hover
+{
+	opacity: .3;
+}
+#forward
+{
+    float:right;
+    position:absolute;
+	right:0px;
+    background-color: black;
+    width: 40px;
+    height: 100%;
+    opacity: 0;
+}
+#forward:hover
+{
+    opacity: .3;
+}
+a {
+    display: block;
+}
