@@ -1,0 +1,5 @@
+This is some info for the how you should set up the mysql database. 
+what you will need is a coulem id,filename, type, size and caption.
+this table should be named photograh but if you edit the table name in /includes/photograh.php you should be fine.
+you can edit how you connect to this database with /includes/db_connection.php.
+
